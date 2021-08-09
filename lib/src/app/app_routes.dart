@@ -31,8 +31,8 @@ class AppRoutes {
 
 
 GetPage getPageRightToLeft ({
-  required String name,
-  required Widget Function() page,
+  String name,
+  Widget Function() page,
 }) {
   return GetPage(
     name: name,
@@ -43,8 +43,8 @@ GetPage getPageRightToLeft ({
 }
 
 GetPage getPageDownToUp ({
-  required String name,
-  required Widget Function() page,
+  String name,
+  Widget Function() page,
 }) {
   return GetPage(
     name: name,
